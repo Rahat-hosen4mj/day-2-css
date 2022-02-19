@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .outer-div{
+            height: 400px;
+            width: 400px;
+            background-color: blanchedalmond;
+            border: 1px solid lightblue;
+            position: relative;
+        }
+        .inner-div{
+            height: 100px;
+            width: 110px;
+            background-color: rgb(255, 174, 0);
+            border: 1px solid red;
+            position: absolute;
+            top: 0;
+            right: 0;       
+        }
+        .div1{
+            height: 5rem;
+            position: absolute;
+            width: 100px;
+            background-color: royalblue;
+            top: 100%;
+            left: 0;
+            bottom: -30px;
+            transform: translate(0, -50%);
+        }
+        .div2{
+            height: 5rem;
+            position: absolute;
+            width: 100px;
+            background-color: rgb(102, 225, 65);
+            bottom: -30px;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .div3{
+            height: 5rem;
+            position: absolute;
+            width: 100px;
+            background-color: royalblue;
+            bottom: -30px;
+            top: 100%;
+            right: 0%;
+            transform: translate(0, -50%);
+            
+        }
+        .title{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <h3>Ektah div er modde ar ektah div nia kicu koro</h3>
+    <div class="outer-div">
+        <p class="title">i am inner div</p>
+        <div class="inner-div">
+            <p>i am form outer div</p>
+        </div>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+    </div>
+    <div class="text-style">
+       
+    </div>
+</body>
+</html>

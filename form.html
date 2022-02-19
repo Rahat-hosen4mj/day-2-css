@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css table</title>
+    <style>
+        input[type=text], select{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid gray;
+            box-sizing: border-box;
+            border-radius: 5px;
+            /* background-color: #f2f2f2; */
+        }
+        input[type=button]{
+            width: 100%;
+            padding: 13px 20px;
+            border: 0;
+            background-color: rgb(127, 255, 159);
+            margin: 8px 0;
+            font-size: 1rem;
+            color: black;
+            border-radius: 8px;
+        }
+        input[type=button]:hover{
+            background-color: rgb(43, 139, 107);
+        }
+        .login-form{
+            background-color: #f2f2f2;
+            padding: 14px 20px;
+            border-radius: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <label for="fname">First name</label>
+        <input type="text" name="firstname" id="fn" placeholder="Your name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="lastname" id="lname " placeholder="Your last name...">
+
+        <label for="country">Country</label>
+        <select name="" id="">
+            <option value="japan">Japan</option>
+            <option value="caina">caina</option>
+            <option value="india">India</option>
+        </select>
+        <input type="button" value="button">
+    </div>
+</body>
+</html>

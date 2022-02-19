@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        .container {
+            position: relative;        
+            /* border: 1px solid rgb(78, 212, 55); */
+        }
+
+        .black-div {
+           position: relative;
+           border: 2px solid black;
+           height: 6rem;
+           margin: 30px;
+        }
+
+        .red-div {
+        position: absolute;
+        background-color: red;
+        height: 3rem;
+        width: 60%;
+        left: 4rem;
+        top: 4rem;
+        border-radius: 5px;
+        }
+
+       .lime-div{
+        position: absolute;
+        height: 4rem;
+        background-color: lime;
+        border-radius: 5px;
+        top: -1.5rem;
+        width: 12rem;
+        right: 8rem;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="black-div">i am black</div>
+        <div class="red-div">i am red</div>
+        <div class="lime-div">i am lime</div>
+    </div>
+</body>
+
+</html>
+
+<!-- <html>
+<head>
+<style>
+.container {
+  position: relative;
+  border: 2px solid cyan;
+  padding: 0;
+  margin: 0;
+}
+
+.black-box {
+  position: relative;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="black-box">Black box</div>
+  <div class="gray-box">Gray box</div>
+  <div class="green-box">Green box</div>
+</div>
+
+</body>
+</html> -->
